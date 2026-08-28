@@ -4,6 +4,15 @@ Parametric OpenSCAD model used as visual support while making layout and constru
 
 > The model and documentation were developed with the assistance of ChatGPT.
 
+## Visual concept
+
+The image below is an early visual reference for the intended rear-wall tool-board layout. It supports the design discussion, while the OpenSCAD model remains the dimensional reference.
+
+![Tool-board concept render](_images/tool-board-concept-render.jpg)
+
+For the generated OpenSCAD views and more detailed visual notes, see [`v1.0/doc/design-overview.md`](v1.0/doc/design-overview.md).
+
+
 ## Project status
 
 This is primarily a **private design and exploration project**, not an attempt to create a complete architectural or photorealistic garage model.
@@ -13,27 +22,6 @@ The main goal is to investigate how OpenSCAD can support practical home and work
 Accuracy is therefore focused on the dimensions and details that affect a decision. Other geometry may deliberately remain simplified.
 
 The current model concentrates on the **rear wall of the garage** and the first wall-storage concept around the existing window, door and workbench.
-
-## Current design
-
-The rear-wall model currently contains:
-
-- 3800 mm wide × 2600 mm high garage wall;
-- 90 mm modelled concrete inner wall;
-- left side wall and floor section for spatial context;
-- window and door openings;
-- window sill;
-- 1500 × 750 × 990 mm workbench;
-- two plywood backing panels;
-- black IKEA SKÅDIS 36 × 56 cm pegboards;
-- concealed ROPRO Heavy Duty French Cleat / Z-bar mounting;
-- Customizer switches for the main room and furniture components.
-
-The plywood and SKÅDIS layout is aligned visually with the **window**, rather than being positioned from an arbitrary floor height.
-
-![Current rear-wall tool-board design](v1.0/out/png/tool-board-rear_tool_panels.png)
-
-*Current rear-wall tool-board layout. This image is generated automatically from `v1.0/cad/renders/rear_tool_panels.scad` by the GitHub workflow.*
 
 
 ## Visual design overview
@@ -218,7 +206,6 @@ rear_tool_panels.scad
 tool_panel_mounting_exploded.scad
 ```
 
-The `exports/` directory is intentionally kept empty for now. 
 
 ## Repository layout
 
