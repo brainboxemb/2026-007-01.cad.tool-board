@@ -1,0 +1,198 @@
+solid OpenSCAD_Model
+  facet normal -1 0 0
+    outer loop
+      vertex 0 -18 0
+      vertex 0 -18 1220
+      vertex 0 0 1220
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 0 -18 0
+      vertex 460 -18 1220
+      vertex 0 -18 1220
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0 -18 1220
+      vertex 460 -18 1220
+      vertex 0 0 1220
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 0 -18 0
+      vertex 0 0 1220
+      vertex 0 0 0
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 0 -18 0
+      vertex 0 0 0
+      vertex 460 0 0
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 0 0 0
+      vertex 0 0 1220
+      vertex 460 0 0
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 0 0 1220
+      vertex 79 0 1171
+      vertex 79 0 1131
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 0 0 1220
+      vertex 79 0 1131
+      vertex 460 0 0
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 0 0 1220
+      vertex 460 0 1220
+      vertex 79 0 1171
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 0 -18 0
+      vertex 460 -18 0
+      vertex 460 -18 1220
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 0 -18 0
+      vertex 460 0 0
+      vertex 460 -18 0
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 460 -18 0
+      vertex 460 0 0
+      vertex 460 -18 1220
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 1220
+      vertex 460 -18 1220
+      vertex 460 0 1220
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 460 0 0
+      vertex 79 0 1131
+      vertex 381 0 1131
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 460 0 1220
+      vertex 381 0 1171
+      vertex 79 0 1171
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 460 -18 1220
+      vertex 460 0 0
+      vertex 460 0 1220
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 460 0 0
+      vertex 381 0 1131
+      vertex 460 0 1220
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 460 0 1220
+      vertex 381 0 1131
+      vertex 381 0 1171
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 79 -6.01 1131
+      vertex 79 0 1131
+      vertex 79 -6.01 1171
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 79 -6.01 1171
+      vertex 79 0 1131
+      vertex 79 0 1171
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 79 -6.01 1131
+      vertex 79 -6.01 1171
+      vertex 381 -6.01 1171
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 79 -6.01 1171
+      vertex 79 0 1171
+      vertex 381 -6.01 1171
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 79 -6.01 1131
+      vertex 381 0 1131
+      vertex 79 0 1131
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 79 -6.01 1131
+      vertex 381 -6.01 1171
+      vertex 381 -6.01 1131
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 79 -6.01 1131
+      vertex 381 -6.01 1131
+      vertex 381 0 1131
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 381 -6.01 1171
+      vertex 79 0 1171
+      vertex 381 0 1171
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 381 -6.01 1131
+      vertex 381 -6.01 1171
+      vertex 381 0 1171
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 381 -6.01 1131
+      vertex 381 0 1171
+      vertex 381 0 1131
+    endloop
+  endfacet
+endsolid OpenSCAD_Model
