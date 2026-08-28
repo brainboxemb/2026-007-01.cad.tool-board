@@ -10,6 +10,7 @@ include <../project_components/rear_door.scad>
 include <../project_components/garage_workbench.scad>
 include <../project_components/garage_floor.scad>
 include <../project_components/rear_tool_panels.scad>
+include <../components/reference_grid.scad>
 
 module garage_rear_scene(
     rear_wall_visible     = true,
@@ -25,6 +26,10 @@ module garage_rear_scene(
     skadis_slots_visible  = true,
     skadis_mount_points_visible = true,
     skadis_mount_hardware_visible = false,
+    reference_grid_visible = false,
+    reference_grid_pitch_value = 100,
+    reference_grid_line_width_value = 2,
+    reference_grid_depth_value = 1,
     tool_panels_explode   = 0
 ) {
     if (floor_visible)
@@ -48,6 +53,17 @@ module garage_rear_scene(
                 door_x        = door_left,
                 door_width    = door_width,
                 door_height   = door_height
+            );
+
+    if (reference_grid_visible)
+        color([0.85, 0.15, 0.15, 0.45])
+            reference_grid_xz(
+                width      = wall_width,
+                height     = wall_height,
+                pitch      = reference_grid_pitch_value,
+                line_width = reference_grid_line_width_value,
+                depth      = reference_grid_depth_value,
+                y          = -1.5
             );
 
     if (left_wall_visible)

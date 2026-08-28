@@ -21,6 +21,14 @@ show_tool_panel_mounts   = true;
 show_skadis_slot_pattern = true;
 show_skadis_mount_points = true;
 show_skadis_mount_hardware = false;
+show_reference_grid       = false;
+
+/* [Reference grid] */
+
+// Rear-wall dimensional reference grid.
+reference_grid_pitch      = 100; // 10 cm
+reference_grid_line_width = 2;
+reference_grid_depth      = 1;
 
 // Move multiplex + SKADIS towards the garage to inspect the concealed mount.
 tool_panel_explode = 0; // [0:5:150]
@@ -96,10 +104,11 @@ workbench_x = 0;
 
 /* [Tool panel backing] */
 
-// Use the 1220 mm sheet dimension directly. The backing panels are centred
-// vertically on the window opening instead of being made as tall as the window.
+// Use the 1220 mm sheet dimension directly.
+// Align the bottom edge with the TOP of the 20 mm window sill.
+// The sill top coincides with the bottom of the window opening.
 tool_panel_height = 1220;
-tool_panel_bottom = window_bottom + (window_height - tool_panel_height) / 2;
+tool_panel_bottom = window_bottom;
 tool_panel_top    = tool_panel_bottom + tool_panel_height;
 
 tool_panel_thickness = 18;

@@ -19,5 +19,9 @@ garage_rear_scene(
     skadis_slots_visible  = show_skadis_slot_pattern,
     skadis_mount_points_visible = show_skadis_mount_points,
     skadis_mount_hardware_visible = show_skadis_mount_hardware,
+    reference_grid_visible = show_reference_grid,
+    reference_grid_pitch_value = reference_grid_pitch,
+    reference_grid_line_width_value = reference_grid_line_width,
+    reference_grid_depth_value = reference_grid_depth,
     tool_panels_explode   = tool_panel_explode
 );

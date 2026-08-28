@@ -3,11 +3,12 @@
 include <../config.scad>
 include <../assemblies/garage_rear.scad>
 
-// Angled view from inside the garage towards the rear wall.
-// Kept close enough to the straight elevation to make layout comparison easy.
-$vpr = [72, 0, -24];
-$vpt = [1900, -120, 1320];
-$vpd = 6100;
+// Camera is deliberately placed on the GARAGE side of the rear wall.
+// This gives a natural workshop view towards the rear wall, with some
+// floor and left wall visible, rather than looking through the rear wall.
+$vpr = [68, 0, 28];
+$vpt = [1900, -450, 1300];
+$vpd = 5900;
 
 garage_rear_scene(
     rear_wall_visible = true,
@@ -23,5 +24,6 @@ garage_rear_scene(
     skadis_slots_visible = true,
     skadis_mount_points_visible = true,
     skadis_mount_hardware_visible = false,
+    reference_grid_visible = false,
     tool_panels_explode = 0
 );

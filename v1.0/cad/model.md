@@ -77,3 +77,12 @@ The garage interior is modelled on the negative Y side of the rear wall. The ext
 - Ropro Heavy Duty French Cleat Z-Bar Set 30 cm: https://www.ropro.eu/en/heavy-duty-french-cleat-z-bar-set-30cm.html
 - Ropro Heavy Duty French Cleat Z-Bar Set 60+6 cm: https://www.ropro.eu/en/heavy-duty-french-cleat-z-bar-set-60-6cm.html
 - IKEA SKÅDIS 36 × 56 cm: https://www.ikea.com/nl/nl/p/skadis-pegboard-zwart-80534372/
+
+
+## Reference grid
+
+A 100 mm rear-wall reference grid can be enabled with `show_reference_grid` in the Customizer. The grid is a visual aid only and does not affect export geometry.
+
+## Tool-board vertical alignment
+
+The 1220 mm-high multiplex backing panels are aligned with the top of the window sill (`tool_panel_bottom = window_bottom`). With the current dimensions this places them from Z=1060 mm to Z=2280 mm.

@@ -22,7 +22,16 @@ The corresponding OpenSCAD view is the dimensional implementation used to verify
 
 ![Rear tool panels — angled](../out/png/tool-board-rear-tool-panels-angled.png)
 
-The angled view is intended to make depth, wall offset and the relationship between the backing panels and surrounding garage geometry easier to judge.
+The angled view is taken from inside the garage towards the rear wall. It is intended to show the tool-board layout in a natural workshop perspective while also making depth and the relationship with the left wall, floor and workbench easier to judge.
+
+
+## 100 mm reference-grid view
+
+![Rear tool panels with 100 mm grid](../out/png/tool-board-rear-tool-panels-grid.png)
+
+This render adds a 100 mm reference grid across the rear-wall plane. The grid is a visual measuring aid and can also be enabled interactively from the OpenSCAD Customizer.
+
+The plywood backing panels are aligned with the **top of the window sill**. With the current dimensions, the backing panels run from 1060 mm to 2280 mm above floor level.
 
 ## SKÅDIS component detail
 
