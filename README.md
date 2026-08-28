@@ -31,6 +31,10 @@ The rear-wall model currently contains:
 
 The plywood and SKÅDIS layout is aligned visually with the **window**, rather than being positioned from an arbitrary floor height.
 
+![Current rear-wall tool-board design](v1.0/out/png/tool-board-rear_tool_panels.png)
+
+*Current rear-wall tool-board layout. This image is generated automatically from `v1.0/cad/renders/rear_tool_panels.scad` by the GitHub workflow.*
+
 
 ## Visual design overview
 
@@ -201,6 +205,20 @@ This is a design-stage list rather than a final purchasing specification.
 | TBD | Screws for panel-side Z-bars | suitable for 18 mm plywood with 6 mm recess | Must not penetrate front face |
 | TBD | SKÅDIS mounting screws | suitable for 18 mm plywood | Use the IKEA mounting geometry |
 | 4 approx. | Lower spacers / bumpers | about 6 mm, final size TBD | Potential 3D-printed parts |
+
+## Render and export naming
+
+Render entry-point filenames do not include the project prefix. The GitHub workflow adds the `tool-board-` prefix to generated render and export output, avoiding duplicated names such as `tool-board-tool-board-...`.
+
+Examples:
+
+```text
+garage_rear.scad
+rear_tool_panels.scad
+tool_panel_mounting_exploded.scad
+```
+
+The `exports/` directory is intentionally kept empty for now. 
 
 ## Repository layout
 

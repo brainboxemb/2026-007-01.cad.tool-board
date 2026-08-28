@@ -6,7 +6,7 @@ The model is primarily a private design aid rather than an architectural represe
 
 ## Rear-wall storage layout
 
-![Rear-wall tool panels](../out/png/rear_tool_panels.png)
+![Rear-wall tool panels](../out/png/tool-board-rear_tool_panels.png)
 
 This front-oriented view is the main reference for the current rear-wall concept. It shows the two plywood backing panels around the existing window:
 
@@ -20,19 +20,19 @@ The backing-panel height is 1220 mm. Their vertical placement is derived from th
 
 ## Complete rear-wall context
 
-![Garage rear overview](../out/png/garage_rear.png)
+![Garage rear overview](../out/png/tool-board-garage_rear.png)
 
 This perspective view shows the rear-wall model in spatial context, including the floor section, left wall, window, door and workbench. It is useful mainly for checking how far elements project into the garage and for gradually extending the model beyond the rear wall.
 
 ## Rear wall without storage emphasis
 
-![Rear wall](../out/png/rear_wall.png)
+![Rear wall](../out/png/tool-board-rear_wall.png)
 
 The simplified rear-wall view is useful when checking the fixed architectural references before additional storage or furniture is considered.
 
 ## SKÅDIS component detail
 
-![SKÅDIS component](../out/png/skadis_component.png)
+![SKÅDIS component](../out/png/tool-board-skadis_component.png)
 
 The SKÅDIS component is modelled separately so it can be reused elsewhere in the garage model. The current component includes:
 
@@ -46,7 +46,7 @@ The geometry is intended to make the panel recognisable and dimensionally useful
 
 ## Concealed backing-panel mounting
 
-![Tool-panel mounting exploded](../out/png/tool_panel_mounting_exploded.png)
+![Tool-panel mounting exploded](../out/png/tool-board-tool_panel_mounting_exploded.png)
 
 This exploded view is used to inspect the concealed ROPRO Heavy Duty French-cleat / Z-bar concept behind the plywood.
 
@@ -62,7 +62,7 @@ The final screw and concrete-anchor selection is deliberately not fixed yet beca
 
 ## Top view
 
-![Top view](../out/png/top_view.png)
+![Top view](../out/png/tool-board-top_view.png)
 
 The top view helps with depth and clearance decisions. As the rest of the garage is added, this view can become one of the main layout-comparison views for benches, storage and machines.
 
@@ -72,9 +72,9 @@ The images above are generated from the fixed OpenSCAD entry points under `v1.0/
 
 Current render files:
 
-- `garage_rear.scad` → `garage_rear.png`
-- `rear_tool_panels.scad` → `rear_tool_panels.png`
-- `rear_wall.scad` → `rear_wall.png`
-- `skadis_component.scad` → `skadis_component.png`
-- `tool_panel_mounting_exploded.scad` → `tool_panel_mounting_exploded.png`
-- `top_view.scad` → `top_view.png`
+- `garage_rear.scad` → `tool-board-garage_rear.png`
+- `rear_tool_panels.scad` → `tool-board-rear_tool_panels.png`
+- `rear_wall.scad` → `tool-board-rear_wall.png`
+- `skadis_component.scad` → `tool-board-skadis_component.png`
+- `tool_panel_mounting_exploded.scad` → `tool-board-tool_panel_mounting_exploded.png`
+- `top_view.scad` → `tool-board-top_view.png`
