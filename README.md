@@ -31,6 +31,13 @@ The rear-wall model currently contains:
 
 The plywood and SKÅDIS layout is aligned visually with the **window**, rather than being positioned from an arbitrary floor height.
 
+
+## Visual design overview
+
+An extended visual overview of the current v1.0 model, including the generated OpenSCAD renders and short notes per view, is available here:
+
+- [v1.0 design overview](v1.0/doc/design-overview.md)
+
 ## Rear-wall dimensions
 
 | Item | Dimension |
