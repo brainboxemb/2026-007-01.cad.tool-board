@@ -4,17 +4,19 @@ This document collects the visual views used to evaluate the current tool-board 
 
 The project is primarily a private design study. The OpenSCAD model is used as a dimensional and visual aid for workshop / home-design choices rather than as a photorealistic room-planning model.
 
-## Concept reference
+## Concept and implementation
 
-The following concept image is used as a visual reference for the intended overall appearance. It is not a dimensional CAD render and should not be treated as authoritative geometry.
+### Visual concept
+
+The concept image communicates the intended appearance and overall composition. It is not a dimensional CAD render and should not be treated as authoritative geometry.
 
 ![Tool-board concept render](../../_images/tool-board-concept-render.jpg)
 
-## Main rear-wall view
+### OpenSCAD implementation
+
+The corresponding OpenSCAD view is the dimensional implementation used to verify proportions and placement.
 
 ![Rear tool panels](../out/png/tool-board-rear-tool-panels.png)
-
-This is the primary straight-on OpenSCAD view for checking the relationship between the window, workbench, plywood backing panels and SKÅDIS layout.
 
 ## Angled rear-wall view
 

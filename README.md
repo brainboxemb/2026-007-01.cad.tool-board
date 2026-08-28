@@ -8,11 +8,17 @@ Parametric OpenSCAD model used as visual support while making layout and constru
 
 The image below is an early visual reference for the intended rear-wall tool-board layout. It supports the design discussion, while the OpenSCAD model remains the dimensional reference.
 
+### Concept
+
 ![Tool-board concept render](_images/tool-board-concept-render.jpg)
 
-For the generated OpenSCAD views and more detailed visual notes, see [`v1.0/doc/design-overview.md`](v1.0/doc/design-overview.md).
+### OpenSCAD implementation
 
+![OpenSCAD rear tool-board implementation](v1.0/out/png/tool-board-rear-tool-panels.png)
 
+The generated OpenSCAD view provides the dimensional implementation of the same rear-wall concept.
+
+For additional generated views and more detailed visual notes, see [`v1.0/doc/design-overview.md`](v1.0/doc/design-overview.md).
 ## Project status
 
 This is primarily a **private design and exploration project**, not an attempt to create a complete architectural or photorealistic garage model.
