@@ -22,7 +22,7 @@ The corresponding OpenSCAD view is the dimensional implementation used to verify
 
 ![Rear tool panels — angled](../out/png/tool-board-rear-tool-panels-angled.png)
 
-The angled view is taken from inside the garage towards the rear wall. It is intended to show the tool-board layout in a natural workshop perspective while also making depth and the relationship with the left wall, floor and workbench easier to judge.
+The angled view is taken from inside the garage at approximately standing eye height, looking towards the rear wall. It is intended to show the tool-board layout in a natural workshop perspective while also making depth and the relationship with the left wall, floor and workbench easier to judge.
 
 
 ## 100 mm reference-grid view
