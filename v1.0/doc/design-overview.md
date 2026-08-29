@@ -4,26 +4,31 @@ This document collects the visual views used to evaluate the current tool-board 
 
 The project is primarily a private design study. The OpenSCAD model is used as a dimensional and visual aid for workshop / home-design choices rather than as a photorealistic room-planning model.
 
-## Concept and implementation
+## Concept renders
 
-### Visual concept
+### Straight concept
 
-The concept image communicates the intended appearance and overall composition. It is not a dimensional CAD render and should not be treated as authoritative geometry.
+![Tool-board concept render — straight](../../_images/tool-board-concept-render.jpg)
 
-![Tool-board concept render](../../_images/tool-board-concept-render.jpg)
+### Angled concept
 
-### OpenSCAD implementation
+![Tool-board concept render — angled](../../_images/tool-board-concept-render-angled.jpg)
 
-The corresponding OpenSCAD view is the dimensional implementation used to verify proportions and placement.
+These concept renders communicate the intended appearance and composition. They are not authoritative geometry.
+
+## OpenSCAD implementation
+
+### Straight rear-wall view
 
 ![Rear tool panels](../out/png/tool-board-rear-tool-panels.png)
 
-## Angled rear-wall view
+This is the primary dimensional view for checking the relationship between the window, workbench, plywood backing panels and SKÅDIS layout.
+
+### Angled rear-wall view
 
 ![Rear tool panels — angled](../out/png/tool-board-rear-tool-panels-angled.png)
 
-The angled view is taken from inside the garage at approximately standing eye height, looking towards the rear wall. It is intended to show the tool-board layout in a natural workshop perspective while also making depth and the relationship with the left wall, floor and workbench easier to judge.
-
+The angled view is taken from inside the garage at approximately standing eye height, looking towards the rear wall. It gives a more natural impression of the tool-board layout and the relationship with the workbench, floor and side wall.
 
 ## 100 mm reference-grid view
 
